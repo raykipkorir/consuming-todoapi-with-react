@@ -1,0 +1,11 @@
+.App {
+  background-color: (249, 250, 251);
+  font-family: "Poppins", sans-serif;
+}
+
+i {
+  cursor: pointer;
+}
+i:hover {
+  color: blue;
+}

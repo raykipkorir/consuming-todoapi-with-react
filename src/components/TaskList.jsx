@@ -4,7 +4,7 @@ import TaskItem from "./TaskItem";
 function TaskList({ tasks, fetchTasks }) {
   useEffect(() => {
     fetchTasks();
-  }, []);
+  });
   return (
     <div>
       <ul className="list-group">
